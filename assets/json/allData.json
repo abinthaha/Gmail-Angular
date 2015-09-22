@@ -29,4 +29,64 @@
             "time": "10:52 am"
         },
     ],
+    "sent_items" : [
+        {
+            "starred": "false",
+            "important": "false",
+            "from": "Saju Devasia",
+            "message": "Dosa Mela - For circulation",
+            "time": "10:52 am"
+        },
+        {
+            "starred": "true",
+            "important": "false",
+            "from": "Saju Devasia",
+            "message": "Dosa Mela - For circulation",
+            "time": "10:52 am"
+        },
+        {
+            "starred": "false",
+            "important": "true",
+            "from": "Saju Devasia",
+            "message": "Dosa Mela - For circulation",
+            "time": "10:52 am"
+        },
+        {
+            "starred": "true",
+            "important": "true",
+            "from": "Saju Devasia",
+            "message": "Dosa Mela - For circulation",
+            "time": "10:52 am"
+        },
+    ],
+    "drafts" : [
+        {
+            "starred": "false",
+            "important": "false",
+            "from": "Saju Devasia",
+            "message": "Dosa Mela - For circulation",
+            "time": "10:52 am"
+        },
+        {
+            "starred": "true",
+            "important": "false",
+            "from": "Saju Devasia",
+            "message": "Dosa Mela - For circulation",
+            "time": "10:52 am"
+        },
+        {
+            "starred": "false",
+            "important": "true",
+            "from": "Saju Devasia",
+            "message": "Dosa Mela - For circulation",
+            "time": "10:52 am"
+        },
+        {
+            "starred": "true",
+            "important": "true",
+            "from": "Saju Devasia",
+            "message": "Dosa Mela - For circulation",
+            "time": "10:52 am"
+        },
+    ],
  }

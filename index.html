@@ -6,8 +6,49 @@
 
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/bootstrap.css">
+
+    <script src="assets/plugin/angular-route.min.js" charset="utf-8"></script>
+    <script src="assets/plugin/angular-ui-router.min.js" charset="utf-8"></script>
+    <script src="assets/plugin/angular.min.js" charset="utf-8"></script>
+    <script src="assets/plugin/underscore.js" charset="utf-8"></script>
+
 </head>
-<body background="assets/images/bg.jpg">
-    
+    <body background="assets/images/bg.jpg">
+        <header>
+            <img src="assets/images/logo.png" alt="" height="60px"/>
+            <input type="text" name="name" value="">
+            <div class="search_button">
+                <img src="assets/images/search.png" alt="" width="20px"/>
+            </div>
+    </header>
+    <div class="tools_menu">
+        <h4>Mail</h4>
+        <div class="tool_button">
+            <input type="checkbox">
+        </div>
+        <div class="tool_button">
+            <img src="assets/images/refresh.png" alt="" />
+        </div>
+        <div class="tool_button">
+            More
+        </div>
+    </div>
+    <div class="side_menu">
+        <ul>
+            <div class="btn-compose">
+                <b>COMPOSE</b>
+            </div>
+            <li>Inbox</li>
+            <li>Starred</li>
+            <li>Important</li>
+            <li>Sent Mail</li>
+            <li>Drafts</li>
+            <li>More</li>
+        </ul>
+    </div>
+    <div class="content_area">
+        <div ui-view></div>
+            <!-- Contents will be injected here -->
+    </div>
 </body>
 </html>
