@@ -48,27 +48,39 @@ header {
       background: rgba(125, 125, 125, 0.6);
       border: 1px solid rgba(125, 125, 125, 0.4); }
 
-.side_menu ul {
-  padding: 20px;
-  list-style-type: none;
-  width: 200px; }
-  .side_menu ul .btn-compose {
-    width: 100px;
-    height: 30px;
-    margin-left: 10px;
-    text-align: center;
-    background-color: white;
-    border-radius: 3px;
-    line-height: 3;
-    color: #555;
-    font-size: 11px; }
-  .side_menu ul li {
-    color: white;
-    display: block;
-    cursor: pointer;
-    height: 30px;
-    padding: 5px 10px; }
-    .side_menu ul li:hover {
-      background-color: rgba(0, 0, 0, 0.6); }
+.side_menu {
+  width: 15%; }
+  .side_menu ul {
+    padding: 20px;
+    list-style-type: none; }
+    .side_menu ul .btn-compose {
+      width: 100px;
+      height: 30px;
+      margin-left: 10px;
+      text-align: center;
+      background-color: white;
+      border-radius: 3px;
+      line-height: 3;
+      color: #555;
+      font-size: 11px; }
+    .side_menu ul li {
+      color: white;
+      display: block;
+      cursor: pointer;
+      height: 30px;
+      padding: 5px 10px; }
+      .side_menu ul li:hover {
+        background-color: rgba(0, 0, 0, 0.6); }
+      .side_menu ul li a {
+        color: white;
+        text-decoration: none; }
+
+.content_area {
+  display: inline-block;
+  position: relative;
+  width: 80%;
+  top: -240px;
+  color: white;
+  left: 230px; }
 
 /*# sourceMappingURL=styles.css.map */
