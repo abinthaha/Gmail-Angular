@@ -90,6 +90,7 @@ header {
     background-color: rgba(0, 0, 0, 0.6);
     border-top: 1px solid #555;
     height: 40px;
-    line-height: 3; }
+    line-height: 3;
+    cursor: pointer; }
 
 /*# sourceMappingURL=styles.css.map */
