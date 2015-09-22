@@ -83,4 +83,13 @@ header {
   color: white;
   left: 230px; }
 
+.itemsDiv ul {
+  list-style-type: none;
+  padding: 0px; }
+  .itemsDiv ul li {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-top: 1px solid #555;
+    height: 40px;
+    line-height: 3; }
+
 /*# sourceMappingURL=styles.css.map */

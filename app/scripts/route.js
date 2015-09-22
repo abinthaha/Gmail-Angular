@@ -1,10 +1,19 @@
+
+//Defining the routes
 GmailApp.config(function($stateProvider, $urlRouterProvider) {
+
     $urlRouterProvider.otherwise('/inbox');
 
     $stateProvider
     .state('inbox', {
         url: "/inbox",
-        templateUrl: "app/views/inbox.html"
+        templateUrl: "app/views/inbox.html",
+        controller : "inboxController",
+        resolve : {
+            inboxData : function(MailSrv){
+                return MailSrv.fetchInbox();
+            }
+        }
     })
     .state('starred', {
         url: "/starred",

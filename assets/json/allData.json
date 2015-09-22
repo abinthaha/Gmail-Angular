@@ -1,5 +1,5 @@
 {
-    "Received" : [
+    "Received": [
         {
             "starred": "false",
             "important": "false",
@@ -27,9 +27,9 @@
             "from": "Saju Devasia",
             "message": "Dosa Mela - For circulation",
             "time": "10:52 am"
-        },
+        }
     ],
-    "sent_items" : [
+    "sent_items": [
         {
             "starred": "false",
             "important": "false",
@@ -57,9 +57,9 @@
             "from": "Saju Devasia",
             "message": "Dosa Mela - For circulation",
             "time": "10:52 am"
-        },
+        }
     ],
-    "drafts" : [
+    "drafts": [
         {
             "starred": "false",
             "important": "false",
@@ -87,6 +87,6 @@
             "from": "Saju Devasia",
             "message": "Dosa Mela - For circulation",
             "time": "10:52 am"
-        },
-    ],
- }
+        }
+    ]
+}
