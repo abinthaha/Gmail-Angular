@@ -1,7 +1,18 @@
 <div class="itemsDiv">
     <ul>
         <li ng-repeat="inbox in inboxItems">
-            {{inbox.message}}
+            <input type="checkbox" name="name" value="">
+            <i class="fa fa-star-o impt_{{inbox.starred}}" ng-click="toggleStar($index)"></i>
+
+            <div class="senter">
+                {{inbox.from}}
+            </div>
+            <div class="message">
+                {{inbox.message}}
+            </div>
+            <div class="time">
+                {{inbox.time}}
+            </div>
         </li>
     </ul>
 </div>

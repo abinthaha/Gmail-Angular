@@ -91,6 +91,25 @@ header {
     border-top: 1px solid #555;
     height: 40px;
     line-height: 3;
-    cursor: pointer; }
+    cursor: pointer;
+    padding-left: 10px; }
+    .itemsDiv ul li input {
+      margin-right: 10px; }
+    .itemsDiv ul li i {
+      margin-right: 10px;
+      color: #666; }
+      .itemsDiv ul li i:hover {
+        color: #CCC; }
+    .itemsDiv ul li .impt_true {
+      color: yellow; }
+    .itemsDiv ul li .senter {
+      display: inline-block;
+      width: 20%; }
+    .itemsDiv ul li .message {
+      display: inline-block;
+      width: 65%; }
+    .itemsDiv ul li .time {
+      display: inline-block;
+      width: 8%; }
 
 /*# sourceMappingURL=styles.css.map */

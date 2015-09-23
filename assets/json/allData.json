@@ -1,60 +1,60 @@
 {
     "Received": [
         {
-            "starred": "false",
-            "important": "false",
+            "starred": false,
+            "important": false,
             "from": "Saju Devasia",
             "message": "Dosa Mela - For circulation",
             "time": "10:52 am"
         },
         {
-            "starred": "true",
-            "important": "false",
-            "from": "Saju Devasia",
-            "message": "Dosa Mela - For circulation",
-            "time": "10:52 am"
+            "starred": true,
+            "important": false,
+            "from": "Anu Sekhar",
+            "message": "Biriyani Mela - For circulation",
+            "time": "10:00 am"
         },
         {
-            "starred": "false",
-            "important": "true",
-            "from": "Saju Devasia",
-            "message": "Dosa Mela - For circulation",
-            "time": "10:52 am"
+            "starred": false,
+            "important": true,
+            "from": "Syam SP",
+            "message": "Invitation",
+            "time": "Sep 22"
         },
         {
-            "starred": "true",
-            "important": "true",
-            "from": "Saju Devasia",
-            "message": "Dosa Mela - For circulation",
-            "time": "10:52 am"
+            "starred": true,
+            "important": true,
+            "from": "Vijay Dev",
+            "message": "AutoCart code",
+            "time": "Sep 15"
         }
     ],
     "sent_items": [
         {
             "starred": "false",
             "important": "false",
-            "from": "Saju Devasia",
+            "to": "Vijay Dev",
             "message": "Dosa Mela - For circulation",
             "time": "10:52 am"
         },
         {
             "starred": "true",
             "important": "false",
-            "from": "Saju Devasia",
+            "to": "Nishin",
             "message": "Dosa Mela - For circulation",
             "time": "10:52 am"
         },
         {
             "starred": "false",
             "important": "true",
-            "from": "Saju Devasia",
+            "to": "Saju Devasia",
             "message": "Dosa Mela - For circulation",
             "time": "10:52 am"
         },
         {
             "starred": "true",
             "important": "true",
-            "from": "Saju Devasia",
+            "to": "Syam S Pillai",
             "message": "Dosa Mela - For circulation",
             "time": "10:52 am"
         }
@@ -63,28 +63,14 @@
         {
             "starred": "false",
             "important": "false",
-            "from": "Saju Devasia",
+            "to": "Vijay",
             "message": "Dosa Mela - For circulation",
             "time": "10:52 am"
         },
         {
             "starred": "true",
             "important": "false",
-            "from": "Saju Devasia",
-            "message": "Dosa Mela - For circulation",
-            "time": "10:52 am"
-        },
-        {
-            "starred": "false",
-            "important": "true",
-            "from": "Saju Devasia",
-            "message": "Dosa Mela - For circulation",
-            "time": "10:52 am"
-        },
-        {
-            "starred": "true",
-            "important": "true",
-            "from": "Saju Devasia",
+            "to": "Nishin",
             "message": "Dosa Mela - For circulation",
             "time": "10:52 am"
         }

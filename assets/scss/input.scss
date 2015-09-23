@@ -102,6 +102,8 @@ header {
     left: 230px;
 }
 
+
+
 .itemsDiv {
     ul {
         list-style-type: none;
@@ -113,6 +115,34 @@ header {
             height: 40px;
             line-height: 3;
             cursor: pointer;
+            padding-left: 10px;
+
+            input {
+                margin-right: 10px;
+            }
+            i {
+                margin-right: 10px;
+                color: #666;
+
+                &:hover {
+                    color: #CCC;
+                }
+            }
+            .impt_true {
+                color: yellow;
+            }
+            .senter {
+                display: inline-block;
+                width: 20%;
+            }
+            .message {
+                display: inline-block;
+                width: 65%;
+            }
+            .time {
+                display: inline-block;
+                width: 8%;
+            }
         }
     }
 }
