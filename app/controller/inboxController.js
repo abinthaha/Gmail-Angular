@@ -7,7 +7,7 @@ GmailApp.controller('inboxController', [
 
         $scope.toggleStar = function(index){
             console.log(index);
-            inboxData.Received[index].starred = inboxData.starred === true ? false : true ;
+            inboxData.Received[index].starred = inboxData.Received[index].starred === true ? false : true ;
         };
     }
 ]);
